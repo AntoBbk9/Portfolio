@@ -1,0 +1,118 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+.identification {
+    display: flex;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+.btn10 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn20 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn30 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn10, .btn20, .btn30 {
+    display: inline-block;
+    margin: 0 2%;
+}
+.btn10, .btn20 {
+    border-right: 1px solid black;
+}
+.name {
+    margin-right: 500px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+}
+.paragraph, .paragraph1 {
+    padding-right: 600px;
+    text-align: justify;
+}
+.portfolio { /*corps de la page*/
+    width: 284px;
+    height: 150px;
+    padding-right: 100px;
+} 
+.dr_norman {
+    width: 284px;
+    height: 150px;
+    padding-right: 100px;
+}
+.projet {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.paragraph, .paragraph1 {
+    margin-left: 100px;
+}
+.div_norman {
+    display: flex;
+    justify-content: space-between;
+}
+.div_portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+hr { /*pieds de page*/
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 200px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.9px;
+}
+.tel {
+    text-decoration: none;
+    color: black;
+}
+.email {
+    color: black;
+    text-decoration: none;
+}
+
+
