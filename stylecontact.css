@@ -1,10 +1,5 @@
 .body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 25%;
 
 }
 .identification {
@@ -21,11 +16,12 @@
     justify-content: space-between;
     align-items: center;
 }
-ul {
+.nav {
     list-style-type: none;
     display: flex;
 }
-.btn10 {
+
+.nav__item {
     background-color: white;
     display: inline-block;
     text-decoration: none;
@@ -34,41 +30,23 @@ ul {
     margin-bottom: 6px;
     color: black;
 }
-.btn20 {
-    background-color: white;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    padding: 0px 0.5em;
-    margin-bottom: 6px;
-    color: black;
-}
-.btn30 {
-    background-color: white;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    padding: 0px 0.5em;
-    margin-bottom: 6px;
-    color: black;
-}
-.btn10, .btn20, .btn30 {
+.nav__item {
     display: inline-block;
     margin: 0 2%;
 }
-.btn10, .btn20 {
+.nav--border {
     border-right: 1px solid black;
 }
-.name {
-    /* margin-right: 500px; */
+.header__logo {
+    margin-right: 500px;
     margin-left: 30px;
     text-decoration: none;
     color: black;
 }
-.contact {/*le corps de la page*/
+.contact__tél {/*le corps de la page*/
     font: 100;
     line-height: 49.71pt;
-    /* margin-top: 100px; */
+    margin-top: 50px;
     color: #000000 ;
 }
 .submit {
@@ -85,42 +63,45 @@ ul {
 .submit :hover {
     color: red;
 }
-.name1, .name2 {
+.form__party1, .form__party2 {
     display: flex;
     flex-direction: column;
     gap: 1px;
 }
-.name1 {
+.form__party1 {
     margin-right: 5%;
 }
-.form {
+.forms {
     display: flex;
     justify-items: center;
     justify-content: space-between;
     padding: 2% 10% 6% 10%;
     margin-top: 150px;
+    margin-right: 200px;
 }
 textarea {
     resize: none;
 }
 
-.Ctc {/*mes contacts*/
+.contact__mescontacts {/*mes contacts*/
     margin-top: 130px;
     margin-left: 300px;
     margin-bottom: 200px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
 }
 
 hr { /*pieds de page*/
     border-bottom: 1px solid black;
     width: 80%;
-
 }
-#footer {
+.footer__party {
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin-left: 200px;
-
 }
 .footer {
     position: absolute;
@@ -128,11 +109,11 @@ hr { /*pieds de page*/
     width: 100%;
     height: 0.9px;
 }
-.tel {
+.footer__tel {
     text-decoration: none;
     color: black;
 }
-.email {
+.footer__email {
     color: black;
     text-decoration: none;
 }

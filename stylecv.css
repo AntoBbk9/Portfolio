@@ -1,7 +1,11 @@
 .body {
     font-family: 'Roboto', sans-serif;
+
 }
-.header {/*ente de la page*/
+.identification {
+    display: flex;
+}
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,14 +16,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.identification {
-    display: flex;
-}
-.ul {
+.nav {
     list-style-type: none;
     display: flex;
 }
-.btn10 {
+
+.nav__item {
     background-color: white;
     display: inline-block;
     text-decoration: none;
@@ -28,38 +30,20 @@
     margin-bottom: 6px;
     color: black;
 }
-.btn20 {
-    background-color: white;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    padding: 0px 0.5em;
-    margin-bottom: 6px;
-    color: black;
-}
-.btn30 {
-    background-color: white;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    padding: 0px 0.5em;
-    margin-bottom: 6px;
-    color: black;
-}
-.btn10, .btn20, .btn30 {
+.nav__item {
     display: inline-block;
     margin: 0 2%;
 }
-.btn10, .btn20 {
+.nav--border {
     border-right: 1px solid black;
 }
-.name {
+.header__logo {
     margin-right: 500px;
     margin-left: 30px;
     text-decoration: none;
     color: black;
-    margin-left: 100px;
 }
+
 .cv { /*corps de la page */
     margin-top: 100px;
     margin-left: 100px;
@@ -69,7 +53,7 @@
     margin-left: 100px;
     margin-right: 100px;
 }
-.Para {
+.paragraph {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -82,14 +66,13 @@
 }
 hr { /*pieds de page*/
     border-bottom: 1px solid black;
-    width: 90%;
+    width: 80%;
 }
-#footer {
+.footer__party {
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin-left: 200px;
-    bottom: 0;
 }
 .footer {
     position: absolute;
@@ -97,11 +80,11 @@ hr { /*pieds de page*/
     width: 100%;
     height: 0.9px;
 }
-.tel {
+.footer__tel {
     text-decoration: none;
     color: black;
 }
-.email {
+.footer__email {
     color: black;
     text-decoration: none;
 }
