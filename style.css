@@ -85,13 +85,13 @@
     margin-top: 7px;
     margin-right: 100px;
 }
-.hello__btn1 { /*bouton*/
+/* .hello__btn1 { 
     background-color: orange;
     font-weight: bold;
-    display: inline-block;
+    display: flex;
     text-decoration: none;
-    border-radius: 70%;
-    padding: 8% 2em;
+    border-radius: 50%;
+    padding: 10% 2em;
     margin-bottom: 15px;
     margin-left: 2.5;
     color: black;
@@ -106,6 +106,7 @@
     border-radius: 50%;
     padding: 10% 2em;
     margin-bottom: 15px;
+    margin-left: 2.5;
     color: black;
     border: 1px solid  #080808;
     font-weight: bold;
@@ -114,6 +115,7 @@
 .hello__btn3 {
     text-align: center;
     background-color: skyblue;
+    display: flex;
     font-weight: bold;
     text-decoration: none;
     border-radius: 50%;
@@ -125,7 +127,33 @@
 .hello__btn1, .hello__btn2, .hello__btn3 {
     display: inline-block;
     margin: 0 2%;
+} */
+.hello--btn {
+    background-color: orange;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 20px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+    border-radius: 50%;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+/* margin: 60px 0px 0px 20px;
+width: 100rem;
+height: 100rem;
+background-color: orange;
+font-size: 20px;
+font-weight: bolder;
+border-radius: 90%;
+color: black;
+border: 1px solid  #080808 ;
+text-decoration: none;
+padding: 1px; */
 }
+
 hr { /*pieds de page*/
     border-bottom: 1px solid black;
     width: 80%;
@@ -187,6 +215,17 @@ hr { /*pieds de page*/
  .footer {
     top: 150%;
  }
+.hello{  /*section_hello*/
+    position: absolute;
+    top: 400px;
+    color: #080808;
+    margin: auto;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
 }
 @media screen and (min-width: 1025px) {
     .section__imgmobile {
@@ -195,6 +234,5 @@ hr { /*pieds de page*/
      .section__img {
         display: flex;
      }
-    
     
 }
