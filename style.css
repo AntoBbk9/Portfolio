@@ -167,7 +167,34 @@ hr { /*pieds de page*/
  .nav {
     margin-right: 100px;
     margin-left: 70px;
-
  }  
-
+ .section__imgmobile {
+    display: flex;
+ }
+ .section__img {
+    display: none;
+ }
+ .img__imagemobile {
+    margin-top: 120px;
+    border-radius: 50%;
+    outline: 1px ridge transparent;
+    filter: grayscale(100%);
+    text-align: center;
+ }
+ .section__imgmobile {
+    margin-left: 70px;
+ }
+ .footer {
+    top: 150%;
+ }
+}
+@media screen and (min-width: 1025px) {
+    .section__imgmobile {
+        display: none;
+     }
+     .section__img {
+        display: flex;
+     }
+    
+    
 }
