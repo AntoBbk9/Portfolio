@@ -16,12 +16,12 @@
     justify-content: space-between;
     align-items: center;
 }
-ul {
+.nav {
     list-style-type: none;
     display: flex;
 }
 
-.btn10 {
+.nav__item {
     background-color: white;
     display: inline-block;
     text-decoration: none;
@@ -30,42 +30,25 @@ ul {
     margin-bottom: 6px;
     color: black;
 }
-.btn20 {
-    background-color: white;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    padding: 0px 0.5em;
-    margin-bottom: 6px;
-    color: black;
-}
-.btn30 {
-    background-color: white;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0px;
-    padding: 0px 0.5em;
-    margin-bottom: 6px;
-    color: black;
-}
-.btn10, .btn20, .btn30 {
+.nav__item {
     display: inline-block;
     margin: 0 2%;
 }
-.btn10, .btn20 {
+.nav--border {
     border-right: 1px solid black;
 }
-.name {
+.header__logo {
     margin-right: 500px;
     margin-left: 30px;
     text-decoration: none;
     color: black;
 }
-.img {
+/* ..............corps de la page ......... */
+.section__img { 
     margin-top: 160px;
     margin-left: 300px;
 }
-.png { /*determiner la taille de ma photo ma photo*/
+.img__image { /*determiner la taille de ma photo ma photo*/
     border-radius: 50%;
     padding: 1px;
     width: 284px;
@@ -73,7 +56,7 @@ ul {
     outline: 1px ridge transparent;
     filter: grayscale(100%);
 }
-.section_hello{  /*section_hello*/
+.hello{  /*section_hello*/
     position: absolute;
     top: 170px;
     color: #080808;
@@ -82,27 +65,27 @@ ul {
     margin-left: 650px;
     margin-right: 300px;
 }
-#hello {
+.hello__title {
     display: inline;
     font-size: 3rem;
     font-weight: bold;
     margin-top: 1px;
     margin-bottom: 20px;
 }
-#apropos {
+.hello__apropos {
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 1px;
     margin-bottom: 20px;
 }
-#monparagraph {
+.hello__monparagraphe {
     text-align: justify;
     font-size: 0.9rem;
     line-height: 20pt;
     margin-top: 7px;
     margin-right: 100px;
 }
-.btn1 { /*bouton*/
+.hello__btn1 { /*bouton*/
     background-color: orange;
     font-weight: bold;
     display: inline-block;
@@ -114,7 +97,7 @@ ul {
     color: black;
     border: 1px solid  #080808 ;
 }
-.btn2 {
+.hello__btn2 {
     background-color: red;
     display: flex;
     justify-content: center;
@@ -128,7 +111,7 @@ ul {
     font-weight: bold;
 }
 
-.btn3 {
+.hello__btn3 {
     text-align: center;
     background-color: skyblue;
     font-weight: bold;
@@ -139,7 +122,7 @@ ul {
     color: black;
     border: 1px solid  #080808 ;
 }
-.btn1, .btn2, .btn3 {
+.hello__btn1, .hello__btn2, .hello__btn3 {
     display: inline-block;
     margin: 0 2%;
 }
@@ -147,7 +130,7 @@ hr { /*pieds de page*/
     border-bottom: 1px solid black;
     width: 80%;
 }
-#footer {
+.footer__party {
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -159,11 +142,32 @@ hr { /*pieds de page*/
     width: 100%;
     height: 0.9px;
 }
-.tel {
+.footer__tel {
     text-decoration: none;
     color: black;
 }
-.email {
+.footer__email {
     color: black;
     text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+ .header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .header__logo {
+    margin-right: 100px;
+    margin-left: 110px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    /* font-size: 1.5rem; */
+}
+ .nav {
+    margin-right: 100px;
+    margin-left: 70px;
+
+ }  
+
 }

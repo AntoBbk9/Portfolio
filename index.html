@@ -10,39 +10,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-        <header class="header">
-            <a href="#" class="name"><strong>Antoinette Belebele</strong></a>
-            <nav class="identification">
-                <ul>
-                    <li><a href="cv.html" class="btn10">Cv</a></li>
-                    <li><a href="projets.html" class="btn20">Projets</a></li>
-                    <li><a href="contact.html" class="btn30">Contact</a></li> 
-                </ul>      
-            </nav>
-        </header>
-        <main>       
-            <div class="img">
-            <img src="image/Anto_photo.jpg" alt="photo_Antoinette" class="png">
+    <header class="header">
+        <a href="#" class="header__logo"><strong>Antoinette Belebele</strong></a>
+        <nav class="identification">
+            <ul class="nav">
+                <li><a href="cv.html" class="nav__item nav--border">Cv</a></li>
+                <li><a href="projets.html" class="nav__item nav--border">Projets</a></li>
+                <li><a href="contact.html" class="nav__item">Contact</a></li> 
+            </ul>      
+        </nav>
+    </header>
+    <main class="main">  
+            <div class="section__img">
+                <img src="image/Anto_photo.jpg" alt="photo_Antoinette" class="img__image">
+            </div>
+            <!-- <div class="section__imgmobile">
+                <img src="/image/mobile/An_to_pho_to.jpg" alt="photo_Antoinette" class="img__imagemobile">
+            </div> -->
+        <section class="hello">
+            <div class="hello__div">
+                <h1 class="hello__title">Hello</h1>
+                <h3 class="hello__apropos">A propos de moi</h3>
+                <p class="hello__monpagraphe">
+                    Je suis <strong>Antoinette Belebele</strong>, une développeuse web 
+                    passionnée dotée d'une créativité débordante et 
+                    d'un talent pour concrétiser des idées en 
+                    expériences numériques intéractives
+                </p>
+            
+            <a href="cv.html" class="hello__btn1">Cv</a>
+            <a href="projets.html" class="hello__btn2">Projets</a>
+            <a href="contact.html" class="hello__btn3">Contact</a>
         </div>
-        <section class="section_hello">
-            <h1 id="hello">Hello</h1>
-            <h3 id="apropos">A propos de moi</h3>
-            <p id="monparagraph">
-                Je suis <strong>Antoinette Belebele</strong>, une développeuse web 
-                passionnée dotée d'une créativité débordante et 
-                d'un talent pour concrétiser des idées en 
-                expériences numériques intéractives
-            </p>
-            <a href="cv.html" class="btn1">Cv</a>
-            <a href="projets.html" class="btn2">Projets</a>
-            <a href="contact.html" class="btn3">Contact</a>
         </section>
         </main>
         <footer class="footer">
             <hr>
-            <div id="footer">
-                <a class="tel" href="tel:+243972286213"> <p><strong>Télephone </strong><br>+243 972 286 213</p></a>
-                <a class="email" href="mailto:anthobelebele@gmail.com">
+            <div class="footer__party">
+                <a class="footer__tel" href="tel:+243972286213"> <p><strong>Télephone </strong><br>+243 972 286 213</p></a>
+                <a class="footer__email" href="mailto:anthobelebele@gmail.com">
                     <p ><strong>Email </strong><br>anthobelebele@gmail.com</p></a>
                 <p class="suivre"><strong>Suivez moi </strong>
                     <br>
@@ -53,7 +59,7 @@
                         <a href="https://twitter.com/AnthoBelebele">
                         <img src="image/twitter.svg" alt="twitter" class="logo"></a>
                     </p>
-                <p class="auteur">&copy; 2024 by Antoinette Belebele</p>
+                <p class="footer__auteur">&copy; 2024 by Antoinette Belebele</p>
             </div>
         </footer>   
 </body>
