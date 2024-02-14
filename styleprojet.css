@@ -103,7 +103,7 @@ hr { /*pieds de page*/
         color: black;
         font-weight: bolder;
     }
-    /* .projet__paragraph {
+    .projet__paragraph {
         margin: auto;
     }
     .projet__paragraph {
@@ -124,7 +124,7 @@ hr { /*pieds de page*/
         display: flex;
         flex-direction: column-reverse;
         gap: 1px
-    }
+    /* }
     .footer {
         top: 120%
     }
@@ -133,10 +133,10 @@ hr { /*pieds de page*/
         flex-direction: column;
         text-align: center;
         margin-left: 50px;
-    }
+    } */
     
 }
- */
+
 @media screen and (max-width: 500px) {
     .header__logo {
         margin-right: 50px;
