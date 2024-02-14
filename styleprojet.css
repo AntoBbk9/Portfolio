@@ -48,8 +48,8 @@
     color: black;
 }
 .projet__img { /*corps de la page*/
-    width: 284px;
-    height: 150px;
+    width: 350px;
+    height: 160px;
     padding-right: 100px;
 } 
 .projet {
@@ -61,13 +61,16 @@
     margin-left: 100px;
 }
 .projet__paragraph {
-    padding-right: 600px;
     text-align: justify;
 }
-
+.body {
+    margin: auto;
+    width: 80vw;
+}
 .projet__norman {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
 }
 .projet__portfolio {
     display: flex;
@@ -104,10 +107,10 @@ hr { /*pieds de page*/
     }
 
     .projet__paragraph {
-        margin-left: 100px;
+        margin-left: 10px;
     }
     .projet__paragraph {
-        padding-right: 100px;
+        padding-right: 10px;
         text-align: justify;
     }
     .projet__gras {
@@ -115,14 +118,9 @@ hr { /*pieds de page*/
         top: -190px;
     }
     .projet__img {
-        margin-right: 130px;
-        margin-left: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
-    /* .projet--justify {
-        margin-right: 100px;
-        margin-left: 100px;
-        text-align: justify;
-    } */
     .projet {
         text-align: center;
         margin-top:130px 
@@ -133,10 +131,10 @@ hr { /*pieds de page*/
     }
     .projet--imgportefolio {
         position: relative;
-        top: 20px;
+        top: 30px;
     }
     .footer {
-        top: 150%
+        top: 120%
     }
     .footer__party {
         display: flex;
