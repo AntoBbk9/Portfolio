@@ -164,6 +164,7 @@ hr { /*pieds de page*/
     flex-direction: column;
     text-align: center;
     margin-right: 100px;
+    width: 370px;
  }
  .hello {
     width: 370px;
@@ -196,10 +197,32 @@ hr { /*pieds de page*/
     flex-direction: column;
     text-align: center;
     margin-left: 50px;
-}
+    }
 }
 
-
+@media screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+    .container__section {
+        width: 600px;
+    }
+    .hello {
+        width: 500px;
+        text-align: center;
+        font-size: 2rem;
+        padding-left: 50px;
+     }
+     .img__imagemobile {
+        height: 394px;
+        width: 394px;
+     }
+     .footer {
+        font-size: 2rem;
+        text-align: center;
+     }
+}
  @media screen and (min-width: 1025px) {
     .section__imgmobile {
         display: none;
