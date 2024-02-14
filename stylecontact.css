@@ -171,11 +171,11 @@ hr { /*pieds de page*/
 
 }
 @media screen and (min-width: 1025px) {
-    .fomrs__mobile {
+    .forms__mobile {
         display: none;
     }
     .forms {
         display: flex;
     }
-    
+   
 }

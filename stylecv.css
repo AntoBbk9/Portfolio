@@ -1,8 +1,9 @@
-.body {
-    font-family: 'Roboto', sans-serif;
-
-}
-.identification {
+    .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }     
+.header__identification {
     display: flex;
 }
 .header {
@@ -16,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav {
+.header__nav {
     list-style-type: none;
     display: flex;
 }
@@ -43,7 +44,6 @@
     text-decoration: none;
     color: black;
 }
-
 .cv { /*corps de la page */
     margin-top: 100px;
     margin-left: 100px;
