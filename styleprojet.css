@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     width: 90%;
-    padding: 20px 10px;
+    padding: auto;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -48,33 +48,25 @@
     color: black;
 }
 .projet__img { /*corps de la page*/
-    width: 350px;
+    width: 320px;
     height: 160px;
-    padding-right: 100px;
 } 
 .projet {
     margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
-.projet__paragraph {
-    margin-left: 100px;
-}
+
 .projet__paragraph {
     text-align: justify;
 }
 .body {
+    padding: auto;
     margin: auto;
     width: 80vw;
 }
-.projet__norman {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-}
-.projet__portfolio {
+.projet__div {
     display: flex;
     justify-content: space-between;
+    gap: 200px;
 }
 hr { /*pieds de page*/
     border-bottom: 1px solid black;
@@ -104,34 +96,34 @@ hr { /*pieds de page*/
     .header {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-
-    .projet__paragraph {
-        margin-left: 10px;
+    .header__logo {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+    /* .projet__paragraph {
+        margin: auto;
     }
     .projet__paragraph {
-        padding-right: 10px;
         text-align: justify;
     }
     .projet__gras {
         position: relative;
         top: -190px;
     }
-    .projet__img {
-        margin-right: 10px;
-        margin-left: 10px;
+    .div--justify {
+        margin-top: 50px;
     }
     .projet {
         text-align: center;
         margin-top:130px 
     }
-    .projet__norman, .projet__portfolio {
+    .projet__div {
         display: flex;
         flex-direction: column-reverse;
-    }
-    .projet--imgportefolio {
-        position: relative;
-        top: 30px;
+        gap: 1px
     }
     .footer {
         top: 120%
@@ -143,8 +135,8 @@ hr { /*pieds de page*/
         margin-left: 50px;
     }
     
-    
 }
+ */
 @media screen and (max-width: 500px) {
     .header__logo {
         margin-right: 50px;
