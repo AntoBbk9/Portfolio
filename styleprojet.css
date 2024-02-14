@@ -1,8 +1,12 @@
-.body {
-    font-family: 'Roboto', sans-serif;
 
+.body {
+    .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }     
 }
-.identification {
+.header__identification {
     display: flex;
 }
 .header {
@@ -16,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav {
+.header__nav {
     list-style-type: none;
     display: flex;
 }
@@ -43,7 +47,6 @@
     text-decoration: none;
     color: black;
 }
-
 .projet__img { /*corps de la page*/
     width: 284px;
     height: 150px;
@@ -93,4 +96,66 @@ hr { /*pieds de page*/
 .footer__email {
     color: black;
     text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projet__paragraph {
+        margin-left: 100px;
+    }
+    .projet__paragraph {
+        padding-right: 100px;
+        text-align: justify;
+    }
+    .projet__gras {
+        position: relative;
+        top: -190px;
+    }
+    .projet__img {
+        margin-right: 130px;
+        margin-left: 50px;
+    }
+    /* .projet--justify {
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: justify;
+    } */
+    .projet {
+        text-align: center;
+        margin-top:130px 
+    }
+    .projet__norman, .projet__portfolio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .projet--imgportefolio {
+        position: relative;
+        top: 20px;
+    }
+    .footer {
+        top: 150%
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+    .header__logo {
+        margin-right: 50px;
+        margin-left: 70px;
+        text-decoration: none;
+        color: black;
+    }
+    .header__nav {
+        margin-left: 20px;
+        margin-right: 10px;
+    }    
 }
