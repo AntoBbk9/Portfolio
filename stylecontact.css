@@ -1,8 +1,11 @@
 .body {
-    font-family: 'Roboto', sans-serif;
-
+    .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }     
 }
-.identification {
+.header__identification {
     display: flex;
 }
 .header {
@@ -16,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav {
+.header__nav {
     list-style-type: none;
     display: flex;
 }
@@ -116,4 +119,52 @@ hr { /*pieds de page*/
 .footer__email {
     color: black;
     text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__mescontacts {
+        margin-top: 130px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .forms__mobile {
+        display: flex;
+    }
+    .forms {
+        display: none;
+    }
+    .submit--style {
+        display: flex;
+        margin-left: -250px;
+        margin-top: 350px;
+    }
+    .footer {
+        top: 160%
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+
+}
+@media screen and (min-width: 1025px) {
+    .fomrs__mobile {
+        display: none;
+    }
+    .forms {
+        display: flex;
+    }
+    
 }

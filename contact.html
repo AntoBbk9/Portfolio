@@ -6,14 +6,14 @@
     <title>Contact</title>
     <link rel="stylesheet" href="stylecontact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <a href="index.html" class="header__logo"><strong>Antoinette Belebele</strong></a>
         <nav class="identification">
-            <ul class="nav">
+            <ul class="header__nav">
                 <li><a href="cv.html" class="nav__item nav--border">Cv</a></li>
                 <li><a href="projets.html" class="nav__item nav--border">Projets</a></li>
                 <li><a href="contact.html" class="nav__item">Contact</a></li> 
@@ -42,6 +42,28 @@
                 <br><input class="submit" type="Submit" value="Envoyer">
         </div>
         </form>
+        <!--mobile-->
+        <form class="forms__mobile" method="get" action="file:///C:/Users/Antho%20Belebele/Documents/Anto%20Portfolio/index.html">
+            <div class="form__partymobile">
+                <div>
+                    <br><label class="frname" for="First_Name">First Name</label> 
+                    <br><input type="text" name="First Name" id="First_Name" style="width: 365px;  height: 25px;">
+                    <br><label for="Last_Name">Last Name</label> 
+                    <br> <input type="text" name="Last Name" id="Last_Name" style="width: 365px;  height: 25px;">
+
+                </div>
+                <div>
+                    <br><label for="email">Email</label> 
+                    <br> <input type="email" name="email" id="email" style="width: 365px;  height: 25px;">
+                    <br><label for="subject">Subject</label> <br> <input type="text" name="subjeect" id="subject " style="width: 365px; height: 25px;">
+                </div>        
+                    <br><label for="Message">Message</label>
+                    <br><textarea name="Message" id="Message" style="width: 365px; height: 117px;"></textarea>
+                </div>
+                <div class="submit--style"><input class="submit" type="Submit" value="Envoyer"></div>
+            </div>
+            </form>
+    
     </main> 
     <footer class="footer">
         <hr>

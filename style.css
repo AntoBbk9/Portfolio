@@ -60,11 +60,10 @@
     filter: grayscale(100%);
 }
 .hello{  /*section_hello*/
-    position: absolute;
+   position: absolute;
     top: 170px;
     color: #080808;
     margin: auto;
-    
     margin-left: 650px;
     margin-right: 300px;
 }
@@ -155,7 +154,7 @@ hr { /*pieds de page*/
     text-align: center;
  }
  .header__logo {
-    margin-right: 90px;
+    margin-right: 80px;
     margin-left: 110px;
     text-decoration: none;
     color: black;
@@ -272,9 +271,9 @@ hr { /*pieds de page*/
         /* margin-left: 200px; */
         /* margin-right: 50%; */
     }
-    }
+
     
-    .hello {  /*section_hello*/
+    .hello/*section_hello*/
          /* position: absolute;
         top: 400px;
         color: #080808;
