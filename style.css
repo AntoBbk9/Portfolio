@@ -217,6 +217,7 @@ hr { /*pieds de page*/
      .img__imagemobile {
         height: 394px;
         width: 394px;
+        padding-right: 50px;
      }
      .footer {
         font-size: 2rem;
@@ -231,3 +232,65 @@ hr { /*pieds de page*/
         display: flex;
      }
 }
+@media screen and (max-width: 500px) {
+    .header {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       font-size: 1rem;
+    }
+    .header__logo {
+       margin-right: 80px;
+       margin-left: 110px;
+       text-decoration: none;
+       color: black;
+       font-weight: bolder;
+   }
+    .header__nav {
+       margin-right: 100px;
+       margin-left: 70px;
+    }  
+    .container__section {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       margin-right: 100px;
+       width: 290px;
+    }    
+
+    .hello {
+       width: 290px;
+       text-align: center;
+       font-size: 1rem;
+    }
+    .section__imgmobile {
+       display: flex;
+    }
+    .section__img {
+       display: none;
+    }
+    .img__imagemobile {
+       margin-top: 50px;
+       height: 294px;
+       width: 294px;
+       margin-right: 30px;
+       border-radius: 50%;
+       outline: 1px ridge transparent;
+       text-align: center;
+    }
+    .section__imgmobile {
+       margin-left: 50px;
+    }
+   
+   .footer {
+       top: 150%;
+    }
+   .footer__party {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       margin-left: 60px;
+       font-size: 1rem;
+       }
+   }
+   
