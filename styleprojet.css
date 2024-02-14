@@ -124,7 +124,7 @@ hr { /*pieds de page*/
         display: flex;
         flex-direction: column-reverse;
         gap: 1px
-    /* }
+    }
     .footer {
         top: 120%
     }
@@ -133,7 +133,7 @@ hr { /*pieds de page*/
         flex-direction: column;
         text-align: center;
         margin-left: 50px;
-    } */
+    }
     
 }
 
