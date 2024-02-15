@@ -58,7 +58,7 @@
 .projet__paragraph {
     text-align: justify;
 }
-.body {
+.container__body {
     padding: auto;
     margin: auto;
     width: 80vw;
@@ -67,6 +67,9 @@
     display: flex;
     justify-content: space-between;
     gap: 200px;
+}
+.div--margin {
+    margin-top: 20px;
 }
 hr { /*pieds de page*/
     border-bottom: 1px solid black;
@@ -98,16 +101,9 @@ hr { /*pieds de page*/
         flex-direction: column;
         align-items: center;
     }
-    .header__logo {
-        text-decoration: none;
-        color: black;
-        font-weight: bolder;
-    }
-    .projet__paragraph {
-        margin: auto;
-    }
     .projet__paragraph {
         text-align: justify;
+        margin: auto;
     }
     .projet__gras {
         position: relative;
@@ -137,15 +133,92 @@ hr { /*pieds de page*/
     
 }
 
-@media screen and (max-width: 500px) {
-    .header__logo {
-        margin-right: 50px;
-        margin-left: 70px;
-        text-decoration: none;
-        color: black;
+@media screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        flex-direction: row;
     }
-    .header__nav {
-        margin-left: 20px;
-        margin-right: 10px;
+    .header__logo {
+        margin-right: 100px;
+    }
+    .projet__paragraph {
+        text-align: justify;
+        margin: auto;
+        width: 200px;
+    }
+    .projet__gras {
+        position: relative;
+        top: 0px;
+    }
+    .projet__div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 600px;
+    }
+    .footer {
+        top: 80%
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 10px;
+        width: 700px;
+    }
+
+
+    
+}
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .header__logo {
+        /* margin-left: 80px; */
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    .projet__paragraph {
+        text-align: justify;
+        margin: auto;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .projet__gras {
+        position: relative;
+        top: -190px;
+    }
+    .projet__gras {
+        position: relative;
+        top: -190px;
+    }
+    .div--justify {
+        margin-top: 2.5rem;
+    }
+    .projet {
+        text-align: center;
+        margin-top:130px; 
+    }
+    .projet__div {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1px;
+        width: 100%;
+    }
+    .footer {
+        top: 130%;
+        width: 100%;
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
     }    
 }

@@ -200,19 +200,19 @@ hr { /*pieds de page*/
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) { 
     .header {
         display: flex;
         flex-direction: row;
     }
     .container__section {
-        width: 600px;
+        width: 100%;
     }
     .hello {
         width: 500px;
         text-align: center;
         font-size: 2rem;
-        padding-left: 50px;
+        /* padding-left: 50px; */
      }
      .img__imagemobile {
         height: 394px;
@@ -232,7 +232,7 @@ hr { /*pieds de page*/
         display: flex;
      }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .header {
        display: flex;
        flex-direction: column;

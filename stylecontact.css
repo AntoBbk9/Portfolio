@@ -168,9 +168,16 @@ hr { /*pieds de page*/
         text-align: center;
         margin-left: 50px;
     }
-
-
 }
+    @media screen and (max-width: 850) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: yellow;
+        }
+    }
+
+
 @media screen and (min-width: 1025px) {
 .forms__mobile {
     display: none;
