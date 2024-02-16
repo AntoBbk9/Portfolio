@@ -1,7 +1,8 @@
 .roboto-bold {
-                font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
       } 
 
 .header__identification {
@@ -131,6 +132,7 @@ hr { /*pieds de page*/
     bottom: 0;
     width: 100%;
     height: 0.9px;
+    text-align: center;
 }
 .footer__tel {
     text-decoration: none;

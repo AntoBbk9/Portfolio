@@ -149,8 +149,12 @@ hr { /*pieds de page*/
         margin-left: 0px;
         margin-right: 0px;
     }
+    .date {
+        display: flex;
+        flex-direction: column;
+    }
     .footer {
-        top: 70%;
+        top: 80%;
         width: 100%;
     }
     .footer__party {

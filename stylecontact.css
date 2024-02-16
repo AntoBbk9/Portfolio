@@ -49,7 +49,6 @@
 .contact__tél {/*le corps de la page*/
     font: 100;
     line-height: 49.71pt;
-    margin-top: 50px;
     color: #000000 ;
 }
 .submit {
@@ -79,7 +78,6 @@
     justify-items: center;
     justify-content: space-between;
     padding: 2% 10% 6% 10%;
-    margin-top: 150px;
     margin-right: 200px;
 }
 .form__widthmsg {
@@ -87,14 +85,15 @@
     height: 117px;
     resize: none;
 }
-.contact__mescontacts {/*mes contacts*/
-    margin-top: 130px;
-    margin-left: 300px;
-    margin-bottom: 200px;
-}
 .contact {
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    width: 900px;
 }
 
 hr { /*pieds de page*/
@@ -143,9 +142,6 @@ hr { /*pieds de page*/
         flex-direction: column;
     }
     .contact__mescontacts {
-        margin-top: 130px;
-        margin-bottom: 100px;
-        margin-left: 50px;
         text-align: center;
     }
     .forms__mobile {
@@ -197,15 +193,14 @@ hr { /*pieds de page*/
         }
         .forms {
             display: flex;
-            margin-top: -140px;
+            margin-top: 0px;
             margin-right: 0px;
             padding: 0%;
             width: 100%;
             gap: 1px;
             font-size: 1.5rem;
         }
-        .contact__mescontacts {/*mes contacts*/
-            margin-top: 130px;
+        .contact__mescontacts {
             text-align: left;
             font-size: 1.5rem;
         }
@@ -221,7 +216,10 @@ hr { /*pieds de page*/
         .form__widthmsg {
             width: 360px; 
             height: 117px;
-        }                     
+        } 
+        .footer {
+            top: 100%
+        }                    
         .footer__party {
             display: flex;
             flex-direction: row;
@@ -244,7 +242,7 @@ hr { /*pieds de page*/
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 1rem;
+        font-size: 16px;
      }
      .header__logo {
         margin-right: 80px;
@@ -260,11 +258,9 @@ hr { /*pieds de page*/
     .contact {
         display: flex;
         flex-direction: column;
+        
     }
     .contact__mescontacts {
-        margin-top: 130px;
-        margin-bottom: 100px;
-        margin-left: 50px;
         text-align: center;
     }
     .forms__mobile {
@@ -284,7 +280,6 @@ hr { /*pieds de page*/
     }    
     .submit--style {
         display: flex;
-        margin-left: -250px;
         margin-top: 350px;
     }
     .footer {
