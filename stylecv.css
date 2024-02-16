@@ -44,25 +44,18 @@
     text-decoration: none;
     color: black;
 }
+.date{
+    display: flex;
+    justify-content: space-between;
+}
 .cv { /*corps de la page */
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
 }
-.expérience {
+.cv__paragraph {
     margin-left: 100px;
     margin-right: 100px;
-}
-.paragraph {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.langue {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.date {
-    margin-left: 1000px;
 }
 hr { /*pieds de page*/
     border-bottom: 1px solid black;
@@ -87,4 +80,85 @@ hr { /*pieds de page*/
 .footer__email {
     color: black;
     text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        top: 120%
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+}
+@media screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+    }
+    .header__logo {
+        margin-right: 100px;
+    }
+    .footer {
+        top: 80%
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 10px;
+        width: 700px;
+    }
+    .cv__paragraph {
+        margin-left: 0px;
+        margin-right: 0px;
+    }  
+    .cv__hrwidth {
+        width: 100%;
+    }  
+    .cv { /*corps de la page */
+        margin-top: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .header__logo {
+        /* margin-left: 80px; */
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    .cv { /*corps de la page */
+        margin-top: 120px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .footer {
+        top: 70%;
+        width: 100%;
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }    
+    
 }
