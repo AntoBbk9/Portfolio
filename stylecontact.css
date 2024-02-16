@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 95%;
     padding: 20px 10px;
     background-color: white;
     display: flex;
@@ -82,10 +82,11 @@
     margin-top: 150px;
     margin-right: 200px;
 }
-textarea {
+.form__widthmsg {
+    width: 170px; 
+    height: 117px;
     resize: none;
 }
-
 .contact__mescontacts {/*mes contacts*/
     margin-top: 130px;
     margin-left: 300px;
@@ -153,7 +154,15 @@ hr { /*pieds de page*/
     .forms {
         display: none;
     }
-
+    .form__widthinput{
+        width: 365px;  
+        height: 25px;
+    }
+    .form__widthmsgmob {
+        width: 365px; 
+        height: 117px;
+        resize: none;
+    }    
     .submit--style {
         display: flex;
         margin-left: -250px;
@@ -169,12 +178,56 @@ hr { /*pieds de page*/
         margin-left: 50px;
     }
 }
-    @media screen and (max-width: 850) {
+    @media screen and (max-width: 850px) {
         .header {
             display: flex;
-            justify-content: space-between;
-            background-color: yellow;
+            flex-direction: row;
         }
+        .header__logo {
+            margin-right: 100px;
+        }
+        .footer {
+            top: 80%
+        }
+        .forms__mobile {
+            display: none;
+        }
+        .forms {
+            display: flex;
+        }
+        .forms {
+            display: flex;
+            margin-top: -140px;
+            margin-right: 0px;
+            padding: 0%;
+            width: 100%;
+            gap: 1px;
+            font-size: 1.5rem;
+        }
+        .contact__mescontacts {/*mes contacts*/
+            margin-top: 130px;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            width: 100%;
+        }
+        .form__party1, .form__party2 {
+            width: 50%;
+        }
+        .form__widthmsg {
+            width: 360px; 
+            height: 117px;
+        }                     
+        .footer__party {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            width: 700px;
+        }    
     }
 
 
@@ -185,4 +238,65 @@ hr { /*pieds de page*/
 .forms {
     display: flex;
 }
+}
+@media screen and (max-width: 450px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+     }
+     .header__logo {
+        margin-right: 80px;
+        margin-left: 110px;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+     .header__nav {
+        margin-right: 100px;
+        margin-left: 70px;
+     }
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__mescontacts {
+        margin-top: 130px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .forms__mobile {
+        display: flex;
+    }
+    .forms {
+        display: none;
+    }
+    .form__widthinput{
+        width: 340px;  
+        height: 25px;
+    }
+    .form__widthmsgmob {
+        width: 340px; 
+        height: 117px;
+        resize: none;
+    }    
+    .submit--style {
+        display: flex;
+        margin-left: -250px;
+        margin-top: 350px;
+    }
+    .footer {
+        top: 160%;
+        width: 100%;
+    }
+    .footer__party {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }    
+
 }
