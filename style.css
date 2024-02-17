@@ -216,20 +216,16 @@ hr { /*pieds de page*/
     .hello__container {
         padding-left: 200px;
     }
-     .footer {
-        top: 130%;
-        width: 100%;
-        font-size: 2rem;
-
-    }
+    .footer {
+        top: 95%
+    }                    
     .footer__party {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        margin-left: 0;
-        width: 100%;
+        width: 700px;
+        margin-left: 50px;
     }    
-
 }
  @media screen and (min-width: 1025px) {
     .section__imgmobile {
@@ -268,6 +264,7 @@ hr { /*pieds de page*/
         margin: 0;
         width: 100%;
         text-align: center;
+        margin-left: 20px;
      }
     .hello {
        width: 100%;
