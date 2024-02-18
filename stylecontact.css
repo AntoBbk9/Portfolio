@@ -1,10 +1,8 @@
 .body {
-    .roboto-bold {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-style: normal;
-      }     
-}
+} 
 .header__identification {
     display: flex;
 }
